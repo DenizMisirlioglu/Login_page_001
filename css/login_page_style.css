@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-image: linear-gradient(to right, #0074cd, #0097e3, #00b6e4, #00d2d5, #12ebbc);
+}
+
+.box {
+	background-color:#F7F9F9;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	padding: 12px 20px;
+	display: inline-block;
+	border-radius: 20px;
+	width: 250px;
+	height: 300px;
+	text-align: center;
+	display: block;
+	margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+	font-family: roboto
+}
+
+.box:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.enter {
+    background-color: #0074CD;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    cursor: pointer;
+	box-shadow: 0 4px 6px 0 rgba(0,0,0,0.1);
+    width: 205px;
+	border-radius: 5px;
+	margin: 25px 0px 20px 0px;
+	text-shadow: 0px 1px 2px #108a8c;
+	font-size: 18px;
+		
+}
+
+.enter:hover {
+    opacity: 0.7;
+}
+
+.baslik {
+	color: #0074CD;
+}
+
+#password {
+	background-color: #FDFEFE;
+    margin: 0px 0px 10px 0px;
+    border: none;
+    cursor: pointer;
+	border-radius: 5px;
+	font-size: 15px;
+	border: 1px solid #C2C2C2;
+	width: 195px;
+	height: 35px;
+	text-align: left;
+	padding-left: 10px;
+	
+}
+
+#username {
+	background-color: #FDFEFE;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    cursor: pointer;
+	border-radius: 5px;
+	font-size: 15px;
+	border: 1px solid #C2C2C2;
+	width: 195px;
+	height: 35px;
+	text-align: left;
+	padding-left: 10px;
+}

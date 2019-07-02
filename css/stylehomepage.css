@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+h2 {
+	font-family: Arial Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	color: cornflowerblue;
+	margin-top: 200px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
